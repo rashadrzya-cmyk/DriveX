@@ -38,35 +38,64 @@ function CarDetails() {
     date: "",
   });
   useEffect(() => {
-    fetch(`/api/cars`)
-      .then((res) => res.json())
-      .then((data) => {
-        setCar(data);
-        setMainImage(data.image);
+  fetch("/api/cars")
+    .then((res) => res.json())
+    .then((carsData) => {
+      const selectedCar = carsData.find(
+        (item: Car) => item.id === Number(id)
+      );
 
-        const favorites = JSON.parse(
-          localStorage.getItem("favorites") || "[]"
-        );
+      if (!selectedCar) return;
 
-        const isFavorite = favorites.some(
-          (item: Car) => item.id === data.id
-        );
+      setCar(selectedCar);
+      setMainImage(selectedCar.image);
 
-        setFavorite(isFavorite);
-        fetch("/api/cars")
-          .then((res) => res.json())
-          .then((carsData) => {
-            const filtered = carsData
-              .filter(
-                (item: Car) => item.id !== data.id
-              )
-              .slice(0, 3);
+      const favorites = JSON.parse(
+        localStorage.getItem("favorites") || "[]"
+      );
 
-            setRelatedCars(filtered);
-          });
-      })
-      .catch((err) => console.log(err));
-  }, [id]);
+      setFavorite(
+        favorites.some((item: Car) => item.id === selectedCar.id)
+      );
+
+      const filtered = carsData
+        .filter((item: Car) => item.id !== selectedCar.id)
+        .slice(0, 3);
+
+      setRelatedCars(filtered);
+    })
+    .catch((err) => console.log(err));
+}, [id]);
+  // useEffect(() => {
+  //   fetch(`/api/cars`)
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       setCar(data);
+  //       setMainImage(data.image);
+
+  //       const favorites = JSON.parse(
+  //         localStorage.getItem("favorites") || "[]"
+  //       );
+
+  //       const isFavorite = favorites.some(
+  //         (item: Car) => item.id === data.id
+  //       );
+
+  //       setFavorite(isFavorite);
+  //       fetch("/api/cars")
+  //         .then((res) => res.json())
+  //         .then((carsData) => {
+  //           const filtered = carsData
+  //             .filter(
+  //               (item: Car) => item.id !== data.id
+  //             )
+  //             .slice(0, 3);
+
+  //           setRelatedCars(filtered);
+  //         });
+  //     })
+  //     .catch((err) => console.log(err));
+  // }, [id]);
 
   const toggleFavorite = () => {
     if (!car) return;
