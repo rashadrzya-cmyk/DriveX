@@ -1,0 +1,384 @@
+{
+  "cars": [
+    {
+      
+  "id": 1,
+  "name": "BMW M4 Competition",
+  "price": "$50,000",
+  "pricePerDay": "",
+  "year": 2024,
+  "type": "buy",
+  "mileage": "5,000 km",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.0L Twin Turbo",
+  "horsepower": "503 HP",
+  "topSpeed": "290 km/h",
+  "color": "Black",
+    "model3D": "/models/bmw.glb",
+      "description": "Luxury sports coupe with powerful performance and advanced technology.",
+  "features": [
+    "Leather Seats",
+    "360 Camera",
+    "Navigation System",
+    "Parking Sensors",
+    "Bluetooth",
+    "Apple CarPlay"
+  ],
+  "image": "/cars/bmw.jpeg",
+  "gallery": [
+    "/cars/bmw1.jpg",
+    "/cars/bmw2.jpg",
+    "/cars/bmw3.jpg"
+  ]
+},
+{
+  "id": 2,
+  "name": "BMW M4 ",
+  "price": "$78,000",
+  "pricePerDay": "",
+  "year": 2024,
+  "type": "buy",
+  "mileage": "5,000 km",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.0L Twin Turbo",
+  "horsepower": "503 HP",
+  "topSpeed": "290 km/h",
+  "color": "Black",
+    "model3D": "/models/bmw.glb",
+  "description": "Luxury sports coupe with powerful performance and advanced technology.",
+  "features": [
+    "Leather Seats",
+    "360 Camera",
+    "Navigation System",
+    "Parking Sensors",
+    "Bluetooth",
+    "Apple CarPlay"
+  ],
+  "image": "/cars/bmw2.jpg",
+  "gallery": [
+    "/cars/bmw1.jpg",
+    "/cars/bmw2.jpg",
+    "/cars/bmw3.jpg"
+  ]
+},
+{
+  "id": 3,
+  "name": "Audi A6",
+  "price": "$110,000",
+  "pricePerDay": "",
+  "year": 2024,
+  "type": "buy",
+  "mileage": "5,000 km",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.0L Twin Turbo",
+  "horsepower": "503 HP",
+  "topSpeed": "290 km/h",
+  "color": "Black",
+  "model3D": "/models/audi.glb",
+  "description": "Luxury sports coupe with powerful performance and advanced technology.",
+  "features": [
+    "Leather Seats",
+    "360 Camera",
+    "Navigation System",
+    "Parking Sensors",
+    "Bluetooth",
+    "Apple CarPlay"
+  ],
+  "image": "/cars/audi.webp",
+  "gallery": [
+    "/cars/bmw1.jpg",
+    "/cars/bmw2.jpg",
+    "/cars/bmw3.jpg"
+  ]
+},
+    {
+  "id": 4,
+  "name":  "Audi A5",
+  "price": "$100,000",
+  "pricePerDay": "",
+  "year": 2024,
+  "type": "buy",
+  "mileage": "5,000 km",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.0L Twin Turbo",
+  "horsepower": "503 HP",
+  "topSpeed": "290 km/h",
+  "color": "Black",
+  "model3D": "/models/audi.glb",
+  "description": "Luxury sports coupe with powerful performance and advanced technology.",
+  "features": [
+    "Leather Seats",
+    "360 Camera",
+    "Navigation System",
+    "Parking Sensors",
+    "Bluetooth",
+    "Apple CarPlay"
+  ],
+  "image": "/cars/audi2.webp",
+  "gallery": [
+    "/cars/bmw1.jpg",
+    "/cars/bmw2.jpg",
+    "/cars/bmw3.jpg"
+  ]
+},
+  {
+  "id": 5,
+  "name":  "Mercedes C-Class",
+  "price": "$99,000",
+  "pricePerDay": "",
+  "year": 2024,
+  "type": "buy",
+  "mileage": "5,000 km",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.0L Twin Turbo",
+  "horsepower": "503 HP",
+  "topSpeed": "290 km/h",
+  "color": "Black",
+  "model3D": "/models/mercedes.glb",
+  "description": "Luxury sports coupe with powerful performance and advanced technology.",
+  "features": [
+    "Leather Seats",
+    "360 Camera",
+    "Navigation System",
+    "Parking Sensors",
+    "Bluetooth",
+    "Apple CarPlay"
+  ],
+  "image": "/cars/mercedes.jpg",
+  "gallery": [
+    "/cars/bmw1.jpg",
+    "/cars/bmw2.jpg",
+    "/cars/bmw3.jpg"
+  ]
+},
+{
+  "id": 6,
+  "name": "Mercedes C-Class",
+  "price": "$30,000",
+  "pricePerDay": "",
+  "year": 2024,
+  "type": "buy",
+  "mileage": "5,000 km",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.0L Twin Turbo",
+  "horsepower": "503 HP",
+  "topSpeed": "290 km/h",
+  "color": "Black",
+  "model3D": "/models/mercedes.glb",
+  "description": "Luxury sports coupe with powerful performance and advanced technology.",
+  "features": [
+    "Leather Seats",
+    "360 Camera",
+    "Navigation System",
+    "Parking Sensors",
+    "Bluetooth",
+    "Apple CarPlay"
+  ],
+  "image": "/cars/mercedes2.jpg",
+  "gallery": [
+    "/cars/bmw1.jpg",
+    "/cars/bmw2.jpg",
+    "/cars/bmw3.jpg"
+  ]
+},
+{
+  "id": 7,
+  "name": "Mercedes C-Class",
+  "price": "",
+  "rentPrice": "$120/day",
+  "year": 2024,
+  "type": "rent",
+  "mileage": "5,000 km",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.0L Twin Turbo",
+  "horsepower": "503 HP",
+  "topSpeed": "290 km/h",
+  "color": "Black",
+  "model3D": "/models/mercedes.glb",
+  "description": "Luxury sports coupe with powerful performance and advanced technology.",
+  "features": [
+    "Leather Seats",
+    "360 Camera",
+    "Navigation System",
+    "Parking Sensors",
+    "Bluetooth",
+    "Apple CarPlay"
+  ],
+  "image": "/cars/mercedes2.jpg",
+  "gallery": [
+    "/cars/bmw1.jpg",
+    "/cars/bmw2.jpg",
+    "/cars/bmw3.jpg"
+  ]
+},
+{
+  "id": 8,
+  "name": "Mercedes C-Class",
+  "price": "",
+"rentPrice": "$150/day",
+  "year": 2024,
+   "type": "rent",
+  "mileage": "5,000 km",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.0L Twin Turbo",
+  "horsepower": "503 HP",
+  "topSpeed": "290 km/h",
+  "color": "Black",
+  "model3D": "/models/mercedes.glb",
+  "description": "Luxury sports coupe with powerful performance and advanced technology.",
+  "features": [
+    "Leather Seats",
+    "360 Camera",
+    "Navigation System",
+    "Parking Sensors",
+    "Bluetooth",
+    "Apple CarPlay"
+  ],
+  "image": "/cars/mercedes2.jpg",
+  "gallery": [
+    "/cars/bmw1.jpg",
+    "/cars/bmw2.jpg",
+    "/cars/bmw3.jpg"
+  ]
+},
+{
+  "id": 9,
+  "name": "Mercedes C-Class",
+  "price": "",
+  "rentPrice": "$220/day",
+  "year": 2024,
+   "type": "rent",
+  "mileage": "5,000 km",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.0L Twin Turbo",
+  "horsepower": "503 HP",
+  "topSpeed": "290 km/h",
+  "color": "Black",
+  "model3D": "/models/mercedes.glb",
+  "description": "Luxury sports coupe with powerful performance and advanced technology.",
+  "features": [
+    "Leather Seats",
+    "360 Camera",
+    "Navigation System",
+    "Parking Sensors",
+    "Bluetooth",
+    "Apple CarPlay"
+  ],
+  "image": "/cars/mercedes2.jpg",
+  "gallery": [
+    "/cars/bmw1.jpg",
+    "/cars/bmw2.jpg",
+    "/cars/bmw3.jpg"
+  ]
+},
+{
+  "id": 10,
+  "name": "Mercedes C-Class",
+  "price": "",
+  "rentPrice": "$200/day",
+  "year": 2024,
+   "type": "rent",
+  "mileage": "5,000 km",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.0L Twin Turbo",
+  "horsepower": "503 HP",
+  "topSpeed": "290 km/h",
+  "color": "Black",
+  "model3D": "/models/mercedes.glb",
+  "description": "Luxury sports coupe with powerful performance and advanced technology.",
+  "features": [
+    "Leather Seats",
+    "360 Camera",
+    "Navigation System",
+    "Parking Sensors",
+    "Bluetooth",
+    "Apple CarPlay"
+  ],
+  "image": "/cars/mercedes2.jpg",
+  "gallery": [
+    "/cars/bmw1.jpg",
+    "/cars/bmw2.jpg",
+    "/cars/bmw3.jpg"
+  ]
+},
+{
+  "id": 11,
+  "name": "Mercedes C-Class",
+  "price": "",
+  "rentPrice": "$120/day",
+  "year": 2024,
+   "type": "rent",
+  "mileage": "5,000 km",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.0L Twin Turbo",
+  "horsepower": "503 HP",
+  "topSpeed": "290 km/h",
+  "color": "Black",
+  "model3D": "/models/mercedes.glb",
+  "description": "Luxury sports coupe with powerful performance and advanced technology.",
+  "features": [
+    "Leather Seats",
+    "360 Camera",
+    "Navigation System",
+    "Parking Sensors",
+    "Bluetooth",
+    "Apple CarPlay"
+  ],
+  "image": "/cars/mercedes2.jpg",
+  "gallery": [
+    "/cars/bmw1.jpg",
+    "/cars/bmw2.jpg",
+    "/cars/bmw3.jpg"
+  ]
+},
+{
+  "id": 12,
+  "name": "Mercedes C-Class",
+  "price": "",
+  "rentPrice": "$120/day",
+  "year": 2024,
+   "type": "rent",
+  "mileage": "5,000 km",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.0L Twin Turbo",
+  "horsepower": "503 HP",
+  "topSpeed": "290 km/h",
+  "color": "Black",
+  "model3D": "/models/mercedes.glb",
+  "description": "Luxury sports coupe with powerful performance and advanced technology.",
+  "features": [
+    "Leather Seats",
+    "360 Camera",
+    "Navigation System",
+    "Parking Sensors",
+    "Bluetooth",
+    "Apple CarPlay"
+  ],
+  "image": "/cars/mercedes2.jpg",
+  "gallery": [
+    "/cars/bmw1.jpg",
+    "/cars/bmw2.jpg",
+    "/cars/bmw3.jpg"
+  ]
+}
+    
+    
+    
+    
+    
+    
+    
+  ]
+}

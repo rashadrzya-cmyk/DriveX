@@ -1,0 +1,179 @@
+.featured {
+  padding: 100px 8%;
+  background: #0f172a;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  position: relative;
+  background: #111827;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.image {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.card:hover .image {
+  transform: scale(1.08);
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #22c55e;
+  margin-bottom: 20px;
+}
+
+.specs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+
+  background: linear-gradient(135deg,
+      #ff4d30,
+      #ff7a18);
+
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+}
+
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 500px;
+  height: 55px;
+  padding: 14px 20px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.searchInput:focus {
+  border-color: #38bdf8;
+}
+
+.filterContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.filterSelect {
+  width: 250px;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.saleBadge{
+    position:absolute;
+    top:15px;
+    left:15px;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:8px 14px;
+
+    border-radius:25px;
+
+    font-size:13px;
+
+    font-weight:bold;
+
+    z-index:10;
+}
+
+.rentBadge{
+    position:absolute;
+    top:15px;
+    left:15px;
+
+    background:#16a34a;
+
+    color:white;
+
+    padding:8px 14px;
+
+    border-radius:25px;
+
+    font-size:13px;
+
+    font-weight:bold;
+
+    z-index:10;
+}
