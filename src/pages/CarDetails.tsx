@@ -38,7 +38,7 @@ function CarDetails() {
     date: "",
   });
   useEffect(() => {
-    fetch(`http://localhost:5000/cars/${id}`)
+    fetch(`/api/cars`)
       .then((res) => res.json())
       .then((data) => {
         setCar(data);
@@ -53,7 +53,7 @@ function CarDetails() {
         );
 
         setFavorite(isFavorite);
-        fetch("http://localhost:5000/cars")
+        fetch("/api/cars")
           .then((res) => res.json())
           .then((carsData) => {
             const filtered = carsData

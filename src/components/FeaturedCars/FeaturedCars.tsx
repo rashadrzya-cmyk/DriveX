@@ -71,7 +71,7 @@ const FeaturedCars: React.FC<Props> = ({ type, title = "Featured Cars", }) => {
     });
 
   useEffect(() => {
-    fetch("http://localhost:5000/cars")
+    fetch("/api/cars")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Failed to fetch cars");
